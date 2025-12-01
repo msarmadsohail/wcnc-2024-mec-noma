@@ -1,51 +1,60 @@
-# DDPG-Based Resource Allocation in MEC-Enabled CR-NOMA Networks  
-**Deep Reinforcement Learning for Computation Offloading, Energy Harvesting & Time Sharing Optimization**
+# WCNC 2024: MEC-Enabled CR-NOMA Resource Allocation using DDPG
 
-This repository contains the complete implementation of our **FYP Thesis**, which was later published at **IEEE WCNC 2024**.  
-It models computation offloading for an IoT device in a **MEC + CR-NOMA** environment and optimizes:
+[![IEEE WCNC 2024](https://img.shields.io/badge/IEEE%20WCNC-2024-blue)](paper/paper.pdf)
+[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-- Time-sharing coefficient  
-- Energy harvesting duration  
-- Transmission duration  
-- Overall service delay  
+## 📄 Publication
 
-using the **Deep Deterministic Policy Gradient (DDPG)** algorithm.
+**Optimizing Resource Allocation in MEC-Enabled CR-NOMA-Assisted IoT Networks: A DRL-Driven Strategy**
 
----
+📍 IEEE WCNC 2024 | Dubai, UAE  
+👥 M. T. Qaiser, **M. S. Sohail**, M. Shafqat, S. A. Ullah, H. Jung, S. A. Hassan
 
-## Key Contributions
-- Reinforcement learning agent for dynamic time allocation  
-- MEC + CR-NOMA hybrid communication environment  
-- Energy harvesting model for secondary IoT devices  
-- Deterministic actor–critic learning system  
-- Complete simulation pipeline + results  
+[📑 Paper](paper/paper.pdf) | [📚 BibTeX](paper/citation.bib)
 
 ---
 
-## Repository Structure
+## 🎯 Overview
 
-research/ → Paper, abstract, citation, and references  
-environment/ → MEC, NOMA, channel, and energy harvesting models  
-agent/ → DDPG agent, actor/critic networks, replay buffer  
-training/ → Training scripts, configs, and loggers  
-results/ → Plots, metrics, and evaluation summaries  
+Deep Deterministic Policy Gradient (DDPG) framework for dynamic resource allocation in energy-harvesting IoT devices using Mobile Edge Computing (MEC) and Cognitive Radio Non-Orthogonal Multiple Access (CR-NOMA).
+
+**Key Results:**
+- ✅ Faster convergence vs. baseline methods
+- ✅ Minimized service delay
+- ✅ Optimized time-sharing between energy harvesting, transmission, and local computation
 
 ---
 
-## Research Paper  
-**Optimizing Resource Allocation in MEC-Enabled CR-NOMA-Assisted IoT Networks: A DRL-Driven Strategy**  
-*Published at IEEE WCNC 2024 (Wireless Communications and Networking Conference).*
+## 🚀 Quick Start
 
-This paper introduces an RL-driven framework where an energy-harvesting IoT device offloads computation to a nearby MEC server using CR-NOMA transmission.  
-A Deep Deterministic Policy Gradient (DDPG) agent dynamically allocates time between:
+```bash
+# Clone repository
+git clone https://github.com/msarmadsohail/wcnc-2024-mec-noma.git
+cd wcnc-2024-mec-noma
 
-- Data transmission  
-- Energy harvesting  
-- Local processing  
+# Run simulation
+python src/environment.py
 
-to **minimize service delay** while maintaining energy sustainability.
+# Interactive demo
+jupyter notebook notebooks/Final_Demonstration.ipynb
+```
 
-### Citation (BibTeX)
+---
+
+## 📁 Repository Structure
+
+```
+├── src/                    # Source code
+├── paper/                  # Publication materials
+├── notebooks/              # Jupyter demonstrations
+└── LICENSE
+```
+
+---
+
+## 📖 Citation
+
 ```bibtex
 @inproceedings{qaiser2024optimizing,
   title={Optimizing Resource Allocation in MEC-Enabled CR-NOMA-Assisted IoT Networks: A DRL-Driven Strategy},
@@ -55,3 +64,14 @@ to **minimize service delay** while maintaining energy sustainability.
   year={2024},
   organization={IEEE}
 }
+```
+
+---
+
+## 👨‍💻 Author
+
+**Muhammad Sarmad Sohail**  
+Data Engineer | ML Engineer  
+msarmadsohail@gmail.com  
+[LinkedIn](https://linkedin.com/in/msarmadsohail) | [Portfolio](https://msarmadsohail.github.io) | [Google Scholar](https://scholar.google.com/citations?user=3DpcXZMAAAAJ)
+```
