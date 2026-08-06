@@ -71,6 +71,4 @@ jupyter notebook notebooks/Final_Demonstration.ipynb
 ## 👨‍💻 Author
 
 **Muhammad Sarmad Sohail**  
-Data Engineer | ML Engineer  
-msarmadsohail@gmail.com  
-[LinkedIn](https://linkedin.com/in/msarmadsohail) | [Portfolio](https://msarmadsohail.github.io) | [Google Scholar](https://scholar.google.com/citations?user=3DpcXZMAAAAJ)
+[Portfolio](https://msarmadsohail.github.io) · [LinkedIn](https://linkedin.com/in/msarmadsohail) · [Google Scholar](https://scholar.google.com/citations?user=zw7ItZkAAAAJ&hl=en)
